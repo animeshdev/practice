@@ -1,0 +1,19 @@
+{
+    "name": "NodeAPI",
+    "version": "0.1.0",
+    "author": "Closure Apps",
+    "description": "File Upload testing",
+    "private": true,
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies" : {
+        "express"       : "*",
+        "body-parser"  : "*",
+        "path"         : "*",
+        "fs-extra"     : "*",
+        "formidable": "*"
+         
+    },
+    "license": "MIT"
+}
